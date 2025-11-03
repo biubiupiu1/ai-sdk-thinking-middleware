@@ -317,7 +317,7 @@ function getTextDelta(part: LanguageModelStreamPart): string {
           ? (part as TextDeltaStreamPart).text
           : '';
 
-  return textDelta;
+  return textDelta ?? '';
 }
 
 function createTextDeltaPart(text: string): TextDeltaStreamPart {

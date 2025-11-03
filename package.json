@@ -17,5 +17,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "node scripts/run-vitest.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ai": "^5.0.86",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.6"
   }
 }
